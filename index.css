@@ -1,0 +1,226 @@
+header,footer {
+    display: block;
+}
+ 
+.textreplace {
+    overflow: hidden;
+    text-indent: 150%;
+    white-space: nowrap;
+}
+ 
+body {
+    background-color: black;
+    color: white;
+    font: 200 14px/1.5 Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.55);
+    -webkit-font-smoothing: antialiased;
+}
+
+#top {
+  color: white;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.55);
+}
+ 
+p {
+    margin: 0 0 1em;
+}
+ 
+a {
+    color: #0464BB;
+}
+ 
+a.button {
+    background-color: #999;
+    -webkit-border-radius: 14px;
+    -moz-border-radius:    14px;
+    border-radius:         14px;
+    border: 1px solid rgba(0,0,0,0.45);
+    border-color: rgba(255,255,255,0.45) transparent transparent transparent;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 0 12px 0 0;
+    padding: 4px 14px 3px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.55);
+}
+ 
+a#primary.button {
+    background-color: #0464BB;
+}
+ 
+a.button:active {
+    position: relative;
+    top: 1px;
+}
+ 
+a#logo {
+    display: block;
+    height: 81px;
+    width: 500px;
+}
+ 
+a#logo img {
+    border: none;
+}
+ 
+div#top {
+    background-color: #222920;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    padding: 36px 0 0;
+}
+ 
+div#below {
+    background-color: #ddd;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    min-height: 430px;
+    color: #333;
+    text-shadow: 0 1px 0 white;
+}
+ 
+footer {
+    padding: 16px 0;
+}
+ 
+footer a {
+    color: white;
+}
+ 
+.cc { /* container */
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+ 
+div#device {
+    background: url(hero-ipad-portrait.png) no-repeat 50% 0;
+    position: absolute;
+    padding-top: 525px;
+    top: 0;
+    right: 15px;
+    width: 360px;
+}
+ 
+#deviceoverlay {
+    display: block;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 360px;
+    z-index: 99;
+}
+ 
+ 
+.right {
+    margin-left: 0;
+    width: 516px;
+}
+ 
+a#instruct {
+    background: rgba(255,255,255,0.666);
+    -webkit-border-radius: 10px;
+    -moz-border-radius:    10px;
+    border-radius:         10px;
+    border: 1px solid;
+    border-color: rgba(255,255,255,0.45) transparent transparent transparent;
+    display: block;
+    margin: 1em 0;
+    text-decoration: none;
+    width: 338px;
+}
+ 
+a#instruct span {
+    color: #2a5c10;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    padding: 8px 40px 10px;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(255,255,255,0.75);
+}
+ 
+div#imgblock img {
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.55);
+    margin-right: 24px;
+}
+ 
+div#imgblock img.last {
+    margin-right: 0;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+ 
+h1 {
+    font: 400 32px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0.67em 0 1em;
+}
+ 
+#builtwithsenchatouch {
+    padding-left: 80px;
+    width: 420px;
+}
+ 
+#builtwithsenchatouch h2 {
+    background: url(http://www.sencha.com/assets/images/logo-80x90.png) no-repeat 0 50%;
+    font-size: 24px;
+    margin-left: -80px;
+    margin-bottom: 0;
+    padding: 1em 0 1em 80px;
+}
+ 
+#builtwithsenchatouch h2 + p {
+    margin-top: -1.5em;
+}
+ 
+h2 span {
+    font-weight: bold;
+}
+ 
+#features {
+    min-height: 160px;
+    margin-bottom: 1em;
+    padding: 1em 0 0;
+/*     overflow: auto; */
+}
+ 
+#features ul,
+#features ul li {
+    margin: 0;
+    padding: 0;
+}
+ 
+#features ul {
+    list-style: disc;
+    list-style-position: inside;
+    margin-bottom: 1em;
+}
+ 
+#features ul li {
+    float: left;
+    height: 26px;
+    line-height: 1;
+    padding: 0 0 0 2px;
+    width: 256px;
+}
+ 
+#features ul li.os {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 0 0 16px;
+    width: 242px;
+}
