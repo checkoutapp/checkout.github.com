@@ -28,12 +28,14 @@ a {
 }
  
 a.button {
-    background-color: #999;
+    background-color: #6C9804;
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#C2FA3B), color-stop(0.02, #90CA05), to(#547503));
+/*    background-color: #999;*/
     -webkit-border-radius: 14px;
     -moz-border-radius:    14px;
     border-radius:         14px;
-    border: 1px solid;
-    border-color: rgba(255,255,255,0.45) transparent transparent transparent;
+    border: 1px solid black;
+/*    border-color: rgba(255,255,255,0.45) transparent transparent transparent;*/
     color: #fff;
     display: block;
     float: left;
@@ -137,28 +139,33 @@ div#device {
 }
  
 a#instruct {
-    background: rgba(255,255,255,0.666);
+    background-color: #6C9804;
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#C2FA3B), color-stop(0.02, #90CA05), to(#547503));
+/*    background: rgba(255,255,255,0.666);*/
     -webkit-border-radius: 10px;
     -moz-border-radius:    10px;
     border-radius:         10px;
-    border: 1px solid;
-    border-color: rgba(255,255,255,0.45) transparent transparent transparent;
+    border: 0.1em solid #374E02;
+/*    border-color: rgba(255,255,255,0.45) transparent transparent transparent;*/
     display: block;
     margin: 1em auto;
     text-decoration: none;
     width: 338px;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.496094) 0px -0.08em 0px;
 }
  
 a#instruct span {
-    color: #181818;
+/*    color: #181818;*/
+    font-weight: bold;
     display: block;
     font-size: 18px;
-    font-weight: 500;
+/*    font-weight: 500;*/
     line-height: 1.2;
     margin: 0;
     padding: 8px 40px 10px;
     text-align: center;
-    text-shadow: 0 -1px 0 rgba(255,255,255,0.35);
+/*    text-shadow: 0 -1px 0 rgba(255,255,255,0.35);*/
 }
  
 div#imgblock img {
