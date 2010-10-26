@@ -250,3 +250,8 @@ h2 span {
 #features strong {
   font-weight: bold;
 }
+
+.footnotes {
+  color: #666;
+  margin-left: 30px;
+}
